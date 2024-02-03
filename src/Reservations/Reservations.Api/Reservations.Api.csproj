@@ -11,12 +11,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Services\" />
-    <Folder Include="ValueObject\" />
-  </ItemGroup>
-
 </Project>
