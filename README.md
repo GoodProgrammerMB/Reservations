@@ -4,10 +4,15 @@ Angular+WebAPI+Tests
 1. SOLID w WebAPI
    
    Zasady SOLID zostały wprowadzone przez Roberta C. Martina i odnoszą się do podstaw projektowania oprogramowania:
+   
    a) S - Single Responsibility Principle(Pojedyńcza odowiedzialność) -Komponent powinien sie skupiaać na jednej rzeczy i robic ją dobrze, nie zajmować się rzeczami które wychodza po za jego zakres.
+   
    b) O - Open/Closed Principle(Zasada Otwartego/Zamkniętego) -Klasy i moduły powinny być otwarte na rozszerzenia, ale zamknięte dla modyfikacji. Nowe funkcjonalności powinny być dodawane przez rozszerzenie, a nie zmienianie istniejącego kodu.
+   
    c) L - Liskov Substitution Principle(Zasada Podstawienia Liskov) -Obiekt danej klasy powinien być zastępowalny obiektem dowolnej z jej klas podrzędnych bez wprowadzania błędów w programie.
+   
    d) I - Interface Segregation Principle(Zasada Segregacji Interfejsów) -Interfejsy powinny być małe i wyspecjalizowane klient nie był zmuszany do implementacji nieurzywanych metod.
+   
    e) D - Dependency Inversion Principle(Zasada Odwrócenia Zależności) -Moduły wysokopoziomowe nie powinny zależeć od modułów niskopoziomowych. Obydwa powinny zależeć od abstrakcji. Ponadto, abstrakcje nie powinny zależeć od szczegółów. Szczegóły powinny zależeć od abstrakcji.
    
 3. Testy Jednostkowe
