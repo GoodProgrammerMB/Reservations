@@ -8,5 +8,6 @@ Angular+WebAPI+Tests
    b) Szkoła Londyńska (inaczej Mockist, Interaction testing, white-box testing), popularyzowana przez Steve Freeman’a, czy Nat Pryce’a. - jednostką jest klasa.
 
    Bede używał podejscia szkoły Londyńskiej.
+   
    Do czytelniejszości testów wykożystam nugeta: Shouldly - fluent asertion
 4. Aplikacja Web Angular + Material
