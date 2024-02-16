@@ -1,4 +1,4 @@
-﻿namespace Reservations.Api.Commands
+﻿namespace Reservations.Application.Commands
 {
 	public record CreateReservation(Guid PlaceId, Guid ReservationId, string PersonNam );
 

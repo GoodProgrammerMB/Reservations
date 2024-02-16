@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uaOxrIrr/pLfg5EXqS+7JIDonTJE7OrpLSwzH0gJ5cWsoNoJFvo9qIJdkByFt2Gum37tDatADNXqx0S4gTMSOQ==",
+  "dgSpecHash": "Jl6ih81BXSmme4+abZDH/cTnvG9oHKpSwP1ogGErc9RRJqN8V0QbowbxaN/M9xh+8ilqeOQnWwKNFb/wTkbHng==",
   "success": true,
   "projectFilePath": "D:\\PROJEKTY\\angular_Api\\src\\Reservations\\Reservations.Api\\Reservations.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

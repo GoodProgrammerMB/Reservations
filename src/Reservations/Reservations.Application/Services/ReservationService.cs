@@ -1,7 +1,7 @@
-﻿using Reservations.Api.Commands;
-using Reservations.Api.DTO;
+﻿using Reservations.Application.Commands;
+using Reservations.Application.DTO;
 
-namespace Reservations.Api.Services
+namespace Reservations.Application.Services
 {
 	public class ReservationService
 	{

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Reservations.Api.Commands;
-using Reservations.Api.DTO;
-using Reservations.Api.Services;
+using Reservations.Application.Commands;
+using Reservations.Application.DTO;
+using Reservations.Application.Services;
 using System.Windows.Input;
 
 namespace Reservations.Api.Controllers
@@ -30,7 +30,7 @@ namespace Reservations.Api.Controllers
 		}
 
 		[HttpGet]
-		public ActionResult<IEnumerable<ReservationDto>> GetAll() 
+		public ActionResult<IEnumerable<Application.DTO.ReservationDto>> GetAll() 
 		{
 			return Ok();
 		}

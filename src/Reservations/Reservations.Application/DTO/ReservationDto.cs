@@ -1,4 +1,4 @@
-﻿namespace Reservations.Api.DTO
+﻿namespace Reservations.Application.DTO
 {
 	public class ReservationDto
 	{
