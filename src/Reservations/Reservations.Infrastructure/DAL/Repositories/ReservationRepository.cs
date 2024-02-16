@@ -1,12 +1,8 @@
 ﻿using Reservations.Core.Entities;
 using Reservations.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Reservations.Infrastructure.Repositories
+
+namespace Reservations.Infrastructure.DAL.Repositories
 {
 	internal class ReservationRepository : IReservationRepository
 	{

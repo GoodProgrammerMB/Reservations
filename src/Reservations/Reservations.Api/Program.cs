@@ -1,5 +1,3 @@
-using Reservations.Core.Repositories;
-using Reservations.Application.Services;
 using Reservations.Infrastructure;
 using Reservations.Core;
 using Reservations.Application;
@@ -9,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services
 	.AddCore()
 	.AddApplication()
-	.AddInfrastructure()
+	.AddInfrastructure(builder.Configuration)
 	.AddControllers();
 
 
@@ -29,6 +27,7 @@ var app = builder.Build();
 //app.UseHttpsRedirection();
 
 //app.UseAuthorization();
+app.UseInfrastructure();
 
 app.MapControllers();
 
